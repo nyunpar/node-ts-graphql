@@ -1,22 +1,26 @@
 {
-  "name": "node-ts-graphql",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/nyunpar/node-ts-graphql.git",
-  "author": "Nirwan <ny.unpar@gmail.com>",
-  "license": "MIT",
-  "scripts":{
-    "start":"nodemon --exec ts-node src/index.ts"
-  },
-  "devDependencies": {
-    "@types/ws": "^6.0.3",
-    "nodemon": "^1.19.1",
-    "ts-node": "^8.3.0",
-    "tslint": "^5.19.0",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.6.2"
-  },
-  "dependencies": {
-    "graphql-yoga": "^1.18.3"
-  }
+   "name": "node-ts-graphql",
+   "version": "1.0.0",
+   "main": "index.js",
+   "repository": "https://github.com/nyunpar/node-ts-graphql.git",
+   "author": "Nirwan <ny.unpar@gmail.com>",
+   "license": "MIT",
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   },
+   "devDependencies": {
+      "@types/ws": "^6.0.3",
+      "nodemon": "^1.19.1",
+      "ts-node": "3.3.0",
+      "tslint": "^5.19.0",
+      "tslint-config-prettier": "^1.18.0",
+      "typescript": "3.3.3333",
+      "@types/node": "^8.0.29"
+   },
+   "dependencies": {
+      "graphql-yoga": "^1.18.3",
+      "typeorm": "0.2.18",
+      "reflect-metadata": "^0.1.10",
+      "mysql": "^2.14.1"
+   }
 }
