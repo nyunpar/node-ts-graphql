@@ -6,7 +6,7 @@
    "author": "Nirwan <ny.unpar@gmail.com>",
    "license": "MIT",
    "scripts": {
-      "start": "ts-node src/index.ts"
+      "start": "nodemon --exec ts-node src/index.ts"
    },
    "devDependencies": {
       "@types/node": "^8.0.29",

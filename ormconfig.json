@@ -3,7 +3,7 @@
    "host": "localhost",
    "port": 3306,
    "username": "root",
-   "password": "test",
+   "password": "",
    "database": "pengetesan",
    "synchronize": true,
    "logging": false,
