@@ -42,13 +42,13 @@ const resolvers:ResolverMap = {
       }
       return true;
     },
-    deleteUser:async (_,{userid}) => { 
+    deleteUser:async (_,{id}) => { 
       try{
         await getConnection()
         .createQueryBuilder()
         .delete()
         .from(User)
-        .where("id = :id", { id: userid })
+        .where("id = :id", { id })
         .execute(); 
       }catch(err){
           console.log(err);
