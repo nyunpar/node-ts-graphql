@@ -5,6 +5,12 @@
         "tslint-config-prettier"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "member-access":false,
+        "no-console":false,
+        "object-literal-sort-keys":false,
+        "ordered-imports":false,
+        "interface-name":false
+    },
     "rulesDirectory": []
 }

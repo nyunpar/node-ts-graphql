@@ -5,9 +5,18 @@
   "repository": "https://github.com/nyunpar/node-ts-graphql.git",
   "author": "Nirwan <ny.unpar@gmail.com>",
   "license": "MIT",
+  "scripts":{
+    "start":"nodemon --exec ts-node src/index.ts"
+  },
   "devDependencies": {
+    "@types/ws": "^6.0.3",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
     "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
   }
 }
