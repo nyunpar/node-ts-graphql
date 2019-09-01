@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import {createConnection} from "typeorm";
-import {User} from "./entity/User";
+//import {User} from "./entity/User";
 import { GraphQLServer } from 'graphql-yoga'
 
 const typeDefs = `
@@ -16,4 +16,6 @@ const resolvers = {
 }
 
 const server = new GraphQLServer({ typeDefs, resolvers })
-server.start(() => console.log('Server is running on localhost:4000'))
+createConnection().then(()=>{
+  server.start(() => console.log('Server is running on localhost:4000'))
+});
