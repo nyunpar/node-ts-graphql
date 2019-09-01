@@ -1,0 +1,8 @@
+{
+  "name": "node-ts-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nyunpar/node-ts-graphql.git",
+  "author": "Nirwan <ny.unpar@gmail.com>",
+  "license": "MIT"
+}
